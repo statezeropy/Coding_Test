@@ -1,14 +1,14 @@
 def solution(players, callings):
-    player_indices = {player: index for index, player in enumerate(players)}
+    player_positions = {player: index for index, player in enumerate(players)}
     
-    for call in callings:
-        call_index = player_indices[call]
-        previous_player = players[call_index - 1]
+    for calling in callings:
+        current_position = player_positions[calling]
+        previous_player = players[current_position - 1]
 
-        player_indices[call] -= 1
-        player_indices[previous_player] += 1
+        player_positions[calling] -= 1
+        player_positions[previous_player] += 1
         
-        players[call_index] = previous_player
-        players[call_index - 1] = call
+        players[current_position] = previous_player
+        players[current_position - 1] = calling
         
     return players
