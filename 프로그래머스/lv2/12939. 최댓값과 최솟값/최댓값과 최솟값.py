@@ -1,8 +1,3 @@
 def solution(s):
-    s = s.split()
-    a = []
-    for i in s:
-        a.append(int(i))
-        print(i)
-        
+    a = [int(i) for i in s.split()]
     return f'{min(a)} {max(a)}'
