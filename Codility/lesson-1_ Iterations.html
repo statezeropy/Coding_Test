@@ -1,0 +1,2792 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <title>
+        
+          Test results - Codility
+        
+      </title>
+    
+
+    <script nonce="fdp+riq+/P5I8LTINhAiRQ==">window.config = {"csrfToken": "EaXX9RXVYaf68kB8xn56DPzsMuEPgnwW8QeGvyB6VubNdpA8rgObxXP3gUUCT2he", "supportEmail": "support@codility.com", "upgradeEmail": "upgrades@codility.com", "collaborateUrl": "https://collaborate.k8s-prod-0.codility.com/", "staticUrl": "/static/", "isRecruiter": false, "cacheId": "0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b", "logRocketId": "codility/frontend-jzrmw", "pendo": {"projectApiKey": "c6ae7399-061a-4c96-677e-4dca765e00f5", "includeUserPII": true, "site": "US"}};</script><script type="application/json" id="data-bag-config">{"csrfToken": "EaXX9RXVYaf68kB8xn56DPzsMuEPgnwW8QeGvyB6VubNdpA8rgObxXP3gUUCT2he", "supportEmail": "support@codility.com", "upgradeEmail": "upgrades@codility.com", "collaborateUrl": "https://collaborate.k8s-prod-0.codility.com/", "staticUrl": "/static/", "isRecruiter": false, "cacheId": "0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b", "logRocketId": "codility/frontend-jzrmw", "pendo": {"projectApiKey": "c6ae7399-061a-4c96-677e-4dca765e00f5", "includeUserPII": true, "site": "US"}}</script>
+    <script type="application/json" id="data-bag-external-urls">{"analytics_survey": "https://www.surveymonkey.com/r/V9WY87X", "automated_reports": "https://automated-reports.data.codility.net/", "blog": "https://www.codility.com/blog/", "codelive_product_tour": "https://www.codility.com/product-tour/codelive/", "product_tour": "https://www.codility.com/product-tour/", "cookie_policy": "https://www.codility.com/cookie-policy/", "data_privacy_notice": "https://www.codility.com/data-privacy-notice/", "data_processing_agreement": "https://www.codility.com/data-processing-agreement/", "demo": "https://www.codility.com/request-a-demo/", "dmca_policy": "https://www.codility.com/dmca-policy/", "facebook_profile": "https://www.facebook.com/Codility/", "fair_use_policy": "https://www.codility.com/fair-use-policy/", "github_profile": "https://github.com/Codility/", "help_center": "https://support.codility.com/", "help_center_analytics": "https://support.codility.com/hc/en-us/articles/360055451253-Analytics-Dashboard", "help_center_anti_cheating_methods": "https://support.codility.com/hc/en-us/articles/360043319434-Anti-Cheating-Methods", "help_center_cancellation_and_refund": "https://support.codility.com/hc/en-us/articles/360043824333-Cancellation-and-Refund-policies", "help_center_codelive_interview": " https://support.codility.com/hc/en-us/articles/360043828053-How-to-Use-CodeLive", "help_center_codelive_room_types": "https://support.codility.com/hc/en-us/articles/360043318154-Different-Formats-of-CodeLive-Rooms", "help_center_custom_tasks": "https://support.codility.com/hc/en-us/articles/360043319994-Exclusive-Tasks", "help_center_fairness_rating": "https://support.codility.com/hc/en-us/articles/360051585814-What-does-Fairness-Rating-mean-", "help_center_greenhouse": "https://support.codility.com/hc/en-us/articles/360043824653-Integrating-with-Greenhouse", "help_center_icims": "https://support.codility.com/hc/en-us/articles/360043317754-Integrating-with-iCIMS", "help_center_jobvite": "https://support.codility.com/hc/en-us/articles/360043317794-Integrating-with-Jobvite", "help_center_lever": "https://support.codility.com/hc/en-us/articles/360043317954-Integrating-with-Lever-ATS", "help_center_proctoring": "https://support.codility.com/hc/en-us/articles/15584109019671-Proctoring-Ensuring-Assessment-Integrity-with-Behavioral-Events-Detection", "help_center_recruitee": "https://support.codility.com/hc/en-us/articles/360043317974-Integrating-with-Recruitee", "help_center_reopening_sessions": "https://support.codility.com/hc/en-us/articles/360043826173-Reopening-Tests-for-Candidates", "help_center_similarity_check": "https://support.codility.com/hc/en-us/articles/360043825273-Similarity-check-and-what-to-do", "help_center_slack": "https://support.codility.com/hc/en-us/articles/360043824553-Integrating-with-Slack", "help_center_smartrecruiters": "https://support.codility.com/hc/en-us/articles/360043824613-Integrating-with-SmartRecruiters", "help_center_taleo": "https://support.codility.com/hc/en-us/articles/360043317994-Integrating-with-Oracle-s-Taleo", "help_center_teamtailor": "https://support.codility.com/hc/en-us/articles/360052599973-Integrating-with-Teamtailor-ATS", "help_center_training": "https://support.codility.com/hc/en-us/articles/360043318034-Using-Codility-for-Training", "help_center_training_videos": "https://support.codility.com/hc/en-us/sections/360008588994-Training-Videos", "help_center_weighted_scoring": "https://support.codility.com/hc/en-us/articles/360047471133-Weighted-Scoring", "help_center_supported_browsers_cui": "https://support.codility.com/hc/en-us/articles/360046335994-What-browsers-are-supported-", "help_center_supported_browsers_rui": "https://support.codility.com/hc/en-us/articles/360043823313-What-browsers-are-supported-", "help_center_workable": "https://support.codility.com/hc/en-us/articles/360043317874-Integrating-with-Workable", "help_center_linkedin_talenthub": "https://support.codility.com/hc/en-us/articles/4415522256919-Integrating-with-LinkedIn-Talent-Solutions", "help_center_anti_bias_workflow": "https://support.codility.com/hc/en-us/articles/360050024513-Anonymization-Anti-bias-features", "help_center_creating_a_great_screening_test": "https://support.codility.com/hc/en-us/articles/360043320374-Creating-a-Great-Screening-Test", "help_center_encourage_more_candidates_to_take_my_tests": "https://support.codility.com/hc/en-us/articles/360043823833-How-can-I-encourage-more-of-my-candidates-to-take-my-test-", "help_center_review_workflow": "https://support.codility.com/hc/en-us/articles/360055796114-Candidate-Review-Workflow", "help_center_review_workflow_multiple_reviewers": "https://support.codility.com/hc/en-us/articles/360055796114-Candidate-Review-Workflow#multiple_reviewers", "help_center_permission_levels": "https://support.codility.com/hc/en-us/articles/360043317574-Permission-Levels", "help_center_invite_expiration": "https://support.codility.com/hc/en-us/articles/4415859889175", "help_center_how_to_invite_candidate": "https://support.codility.com/hc/en-us/articles/360043826673-How-to-Invite-Candidates", "help_center_softgarden": "https://support.codility.com/hc/en-us/articles/360053997293-Integrating-with-softgarden", "help_center_freshteam": "https://support.codility.com/hc/en-us/articles/1500002443402-Integration-with-Freshteam", "help_center_naukri_rms": "https://support.codility.com/hc/en-us/articles/360061163174-Integrating-with-Naukri-RMS", "help_center_goodtime": "https://support.codility.com/hc/en-us/articles/4408493605015", "help_center_ashby": "https://support.codility.com/hc/en-us/articles/9990111645719-Integrating-with-Ashby", "help_center_manatal": "https://support.manatal.com/docs/codility", "help_center_pinpoint": "https://support.codility.com/hc/en-us/articles/6952353448087-Integrating-with-Pinpoint", "help_center_workday": "https://engage.codility.com/rs/024-OPP-333/images/Workday%20and%20Codility%20Integration%20Deployment%20Guide.pdf", "homepage": "https://www.codility.com", "jobs": "https://apply.workable.com/codility/", "linkedin_profile": "https://www.linkedin.com/company/codility", "pricing": "https://www.codility.com/pricing/", "privacy_policy": "https://www.codility.com/privacy-policy/", "referral_greenhouse": "https://go.greenhouse.io/referral-codility.html", "referral_icims": "https://www3.icims.com/mktg/identify-and-hire-the-most-qualified-candidates/?type=partner&utm_campaign=701i0000001uqgv", "referral_jobvite": "http://web.jobvite.com/FY17_Website_Codility_Demo_LP.html", "referral_recruitee": "https://recruitee.com/demo/form?utm_medium=affiliate&utm_source=codility&utm_campaign=codility", "referral_smartrecruiter": "https://www.smartrecruiters.com/resources/get-a-demo/?utm_source=codility_promo", "referral_smartrecruiter_integration": "https://www.smartrecruiters.com/resources/get-a-demo/?utm_source=codility_promo", "releases": "https://support.codility.com/hc/en-us/categories/360003126813", "smartrecruiters_integration_page": "https://www.smartrecruiters.com/settings/administration/app-management", "terms_of_service_for_companies": "https://www.codility.com/terms-of-service/", "twilio_network_check": "https://networktest.twilio.com", "twitter_profile": "https://twitter.com/Codility", "twitter_share_challenge": "https://twitter.com/intent/tweet", "linkedin_share_challenge": "https://www.linkedin.com/profile/add", "typeform_candidate_survey": "https://codility.typeform.com/to/:id", "typeform_candidate_survey_reports": "https://codility.typeform.com/report/:id", "typeform_codelive_recruiter_survey": "https://codility.typeform.com/to/:id", "typeform_codelive_candidate_survey": "https://codility.typeform.com/to/:id", "typeform_sponsored_challenge_diversity_survey": "https://codility.typeform.com/to/:id", "weighted_scoring_blog_page": "https://www.codility.com/blog/new-find-the-right-candidate-for-right-now-with-weighted-scoring/", "salesforce_search": "https://emea.salesforce.com/_ui/search/ui/UnifiedSearchResults", "identity_verification_learn_more_blog_post": "https://support.codility.com/hc/en-us/articles/360060045273-Identity-Verification", "youtube_profile": "https://www.youtube.com/user/codility", "homepage_customer_newsletter": "https://www.codility.com/customer-newsletter-sign-up/?utm_source=homepage&utm_medium=product&utm_campaign=customer-newsletter", "homepage_product_spotlight": "https://www.codility.com/knowledge-hub/product-spotlight-recordings/?utm_source=homepage&utm_medium=product&utm_campaign=product-spotlight", "homepage_virtual_learning": "https://www.codility.com/knowledge-hub/events-and-webinars/?utm_source=homepage&utm_medium=product&utm_campaign=events", "homepage_blog": "https://www.codility.com/blog/?utm_source=homepage&utm_medium=product&utm_campaign=blog", "login_step2_need_help": "https://support.codility.com/hc/en-us/articles/4403106904599", "host_coding_challenges": "https://www.codility.com/product-tour/coding-challenges/", "talent_hub_integrations": "https://www.linkedin.com/talent/account/v2/integrations", "greenhouse_codecheck_integrations": "https://app.greenhouse.io/integrations", "integrate_recruitee": "https://app.recruitee.com/#/settings/integrations?integrate=codility"}</script>
+    <script type="application/json" id="data-bag-features">{"features": [{"name": "AUTOCOMPLETE_IN_CODE_CHECK"}, {"name": "CAN_EXPORT_PDF"}, {"name": "CANVAS_IN_THE_REPORT_ENABLED"}, {"name": "NOTIFICATIONS_ENABLED"}, {"name": "SSO_LOGIN_ENABLED"}]}</script>
+    <script type="application/json" id="data-bag-login-context">{"loginServiceProvider": "external", "loginUrl": "https://login.codility.com"}</script>
+
+    
+    
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1B6994">
+<meta name="theme-color" content="#1B6994">
+
+
+    <style>
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: Roboto, sans-serif;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  iframe {
+    border: none;
+  }
+
+  button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+</style>
+
+
+    
+  
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,700i">
+      <link rel="stylesheet" href="/static/vendor/jquery_ui/css/default/jquery-ui-1.13.1.min.css">
+    
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="/static/vendor/semantic/semantic.min.css?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b">
+  <link rel="stylesheet" href="/static/css/material-icons.css?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b">
+
+  <link rel="stylesheet" href="/static/css/vendor-modifiers/pygments.css?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b">
+
+  
+  
+  <link rel="stylesheet" href="/static/vendor/datetimepicker/jquery-ui-timepicker.css">
+
+
+    
+
+
+
+
+    
+      <script type="application/json" id="data-bag-raven">{"dsn": "https://3c62a8dced574696a68571c03fbc875c@sentry.codility.net/11", "user": {"is_recruiter": false, "is_programmer": true, "id": 1082704, "username": "nashirah23@gmail.com", "email": "nashirah23@gmail.com", "is_superuser": false}}</script><script src="/static/js/raven.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+    
+
+    
+  
+      <script type="application/json" id="data-bag-settings">{"DEBUG": false, "STATIC_URL": "/static/", "SUPPORT": "support@codility.com", "TESTING": false, "ENABLE_NEW_REPORT": false}</script>
+    
+  
+    
+    <!-- programmers_home analytics --><script type="application/json" id="data-bag-analytics">{"satismeter_ph": {"writeKey": "C7uAudeoxVwTjuXD", "userId": 1082704, "traits": {"name": "juyoung kim", "email": "nashirah23@gmail.com", "created_at": "2023-10-23T06:49:03.076747+00:00"}}, "request_metrics": {"token": "k7wm2hr:e7qj7yj"}}</script><script async src="/static/js/common/analytics.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+  
+
+
+    
+  
+
+  
+  
+      <script nonce="fdp+riq+/P5I8LTINhAiRQ==" src="/static/css/overrides.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b"></script>
+
+      <script type="application/json" id="data-bag-context">{}</script>
+      <script nonce="fdp+riq+/P5I8LTINhAiRQ==" src="/static/vendor/jquery/jquery-3.6.0.min.js"></script>
+      <script nonce="fdp+riq+/P5I8LTINhAiRQ==" src="/static/vendor/jquery/jquery-migrate-3.4.0.min.js"></script>
+      <script nonce="fdp+riq+/P5I8LTINhAiRQ==" src="/static/vendor/jquery_ui/jquery-ui-1.13.1.min.js"></script>
+      <script src="/static/js/runtime.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+<script src="/static/js/common/polyfills.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+      <script src="/static/js/common/base-empty.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+    
+  <script nonce="fdp+riq+/P5I8LTINhAiRQ==" src="/static/css/base-inner.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b"></script>
+
+  <script nonce="fdp+riq+/P5I8LTINhAiRQ==" src="/static/vendor/semantic/semantic.min.js"></script>
+
+  
+  <script nonce="fdp+riq+/P5I8LTINhAiRQ==" src="/static/vendor/datetimepicker/jquery-ui-timepicker-addon.js"></script>
+
+  <script type="application/json" id="data-bag-task_types_string">"coding, algo, bug fixing, SQL, data science, web, design, mcq, variant, regex, 5 minutes and training"</script>
+
+  <script src="/static/js/rui/nux-base.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+
+  
+  <!-- NUX -->
+
+  <script nonce="fdp+riq+/P5I8LTINhAiRQ==" src="/static/css/report.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b"></script>
+  <script src="/static/js/rui/ticket-details/ticket-details.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+  <script src="/static/js/common/inject-redirection-warning-for-external-urls.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+  <script src="/static/js/cui/initServices.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+
+
+    
+    
+
+    
+    
+    
+    
+    
+  </head>
+
+  
+
+  <body
+    class="body  "
+    style=""
+  >
+    
+      <input type="hidden" name="csrfmiddlewaretoken" value="MgePAitgLFkwzORrqqgBFSEoUQ9KiSpNgWvyWZ7rIZgdETQrkjZGz0UZogpxVxa5">
+    
+
+    
+    
+
+    
+
+  <div id="js-maintenance-banner"></div>
+
+  <script src="/static/js/rui/banners/rui-unsupported-browsers-sunset-banner.auto.js?0700e0c5db5e8a2b5ce532b7977a31ad0c86e96b" nonce="fdp+riq+/P5I8LTINhAiRQ=="></script>
+  <div id="js-rui-unsupported-browsers-sunset-banner"></div>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+    
+      <header id="top" class="ui container">
+        <div
+          class="js-header-bar-logo"
+          style="padding: 5px 0 25px"
+          data-raw-programmers-link="true"
+          data-raw-type="&quot;midnight-full&quot;"
+          data-raw-height="30"
+        ></div>
+        
+  
+    <div style="float: right; line-height: 48px">
+      <a href="/programmers/">
+        Check out Codility training tasks
+      </a>
+    </div>
+  
+
+      </header>
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+  
+
+  
+
+  
+<main>
+
+
+
+<div class="ui container">
+  <div
+    class="js-ticket-detail"
+    data-share-token=""
+    data-raw-ticket-id="&quot;training37XKRH-9QU&quot;" data-raw-can-create-code-live-rooms="false" data-raw-is-test-reviewer="false" data-raw-reviews-count="0" data-raw-enable-interviewer-login="false" data-raw-is-demo="true" data-raw-is-public="true" data-raw-short-access-token="null"
+  ></div>
+  <div
+    id="js-ticket-detail-data"
+    data-raw-should-refresh="false" data-raw-slider-data="{&quot;focus_inactive&quot;: [], &quot;start_time&quot;: 1698043744, &quot;end_time&quot;: 1698043932, &quot;start_label&quot;: &quot;06:49:04&quot;, &quot;end_label&quot;: &quot;06:52:12&quot;, &quot;tasks&quot;: {&quot;0&quot;: {&quot;solutions&quot;: [{&quot;timestamp&quot;: 1698043750, &quot;timestring&quot;: &quot;06:49:10&quot;, &quot;mode&quot;: &quot;&quot;}, {&quot;timestamp&quot;: 1698043765, &quot;timestring&quot;: &quot;06:49:25&quot;, &quot;mode&quot;: &quot;&quot;}, {&quot;timestamp&quot;: 1698043795, &quot;timestring&quot;: &quot;06:49:55&quot;, &quot;mode&quot;: &quot;&quot;}, {&quot;timestamp&quot;: 1698043818, &quot;timestring&quot;: &quot;06:50:18&quot;, &quot;mode&quot;: &quot;&quot;}, {&quot;timestamp&quot;: 1698043919, &quot;timestring&quot;: &quot;06:51:59&quot;, &quot;mode&quot;: &quot;&quot;}, {&quot;timestamp&quot;: 1698043923, &quot;timestring&quot;: &quot;06:52:03&quot;, &quot;mode&quot;: &quot;verify&quot;}, {&quot;timestamp&quot;: 1698043928, &quot;timestring&quot;: &quot;06:52:08&quot;, &quot;mode&quot;: &quot;verify&quot;}, {&quot;timestamp&quot;: 1698043932, &quot;timestring&quot;: &quot;06:52:12&quot;, &quot;mode&quot;: &quot;final&quot;}], &quot;task_changes&quot;: [{&quot;timestamp&quot;: 1698043744, &quot;to_current&quot;: false}, {&quot;timestamp&quot;: 1698043745, &quot;to_current&quot;: true}, {&quot;timestamp&quot;: 1698043923, &quot;to_current&quot;: true}, {&quot;timestamp&quot;: 1698043928, &quot;to_current&quot;: true}, {&quot;timestamp&quot;: 1698043932, &quot;to_current&quot;: false}, {&quot;timestamp&quot;: 1698043932, &quot;to_current&quot;: false}, {&quot;timestamp&quot;: 1698043932, &quot;to_current&quot;: false}]}}}" data-raw-task-names="[&quot;binary_gap&quot;]" data-raw-task-scores="{&quot;33626807&quot;: 100.0}" data-raw-ticket-id="&quot;training37XKRH-9QU&quot;"
+  ></div>
+</div>
+
+<div class="ui container">
+  <div class="nux-report">
+    <div class="ticket-detail js-ticket-detail-tasks-target">
+      
+
+
+
+
+
+
+
+
+
+<div class="tasks js-ticket-detail-tasks section-separator">
+  <span class="tasks-header">Tasks Details</span>
+
+  
+    
+    <div class="task" id="task-0">
+      <div class="task-header-wrap diff-1" >
+        <div class="difficulty">
+          <span><span>easy</span></span>
+        </div>
+        <div class="task-header">
+          <div class="task-opener">
+            1.
+            
+              <a href="#" id="task-0-name" class="task-opener">BinaryGap</a>
+            
+          </div>
+          <span class="task-synopsis">
+            Find longest sequence of zeros in binary representation of an integer.
+          </span>
+        </div> 
+
+        <div id="task_result_0" class="c-task-score">
+          
+
+
+<div class="task-result-cell">
+  <span class="task-result-cell__header">
+    
+
+    <strong>Task Score</strong>
+
+    
+
+    
+  </span>
+
+  <div class="task-result-cell__result">
+    
+      
+        <div
+          class="ui progress progress-bar-0"
+          style="margin-bottom: 0;"
+        >
+          <div class="bar" style="width: 100%; background-color: #393c4b">
+            <div class="progress" style="color: #fff;" data-test-id="task-score-value">
+              100%
+            </div>
+          </div>
+        </div>
+      
+    
+  </div>
+</div>
+
+
+          
+
+
+<div class="task-result-cell">
+  <span class="task-result-cell__header">
+    
+
+    <strong>Correctness</strong>
+
+    
+
+    
+  </span>
+
+  <div class="task-result-cell__result">
+    
+      
+        <div
+          class="ui progress progress-bar-correctness-0"
+          style="margin-bottom: 0;"
+        >
+          <div class="bar" style="width: 100%; background-color: #393c4b">
+            <div class="progress" style="color: #fff;" data-test-id="correctness-value">
+              100%
+            </div>
+          </div>
+        </div>
+      
+    
+  </div>
+</div>
+
+
+          
+
+
+<div class="task-result-cell">
+  <span class="task-result-cell__header">
+    
+
+    <strong>Performance</strong>
+
+    
+
+    
+  </span>
+
+  <div class="task-result-cell__result">
+    
+      <div class="not-assessed"><span>Not assessed</span></div>
+    
+  </div>
+</div>
+
+        </div>
+
+        
+      </div> 
+      <div class="task-details  task-0-details">
+        <div class="task-details-description-column">
+          
+          <div class="js-task-description-header" ></div>
+          
+          <div id="task-0-text">
+            
+              
+                <html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div class="brinza-task-description">
+<p>A <i>binary gap</i> within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.</p>
+<p>For example, number 9 has binary representation <tt style="white-space:pre-wrap">1001</tt> and contains a binary gap of length 2. The number 529 has binary representation <tt style="white-space:pre-wrap">1000010001</tt> and contains two binary gaps: one of length 4 and one of length 3. The number 20 has binary representation <tt style="white-space:pre-wrap">10100</tt> and contains one binary gap of length 1. The number 15 has binary representation <tt style="white-space:pre-wrap">1111</tt> and has no binary gaps. The number 32 has binary representation <tt style="white-space:pre-wrap">100000</tt> and has no binary gaps.</p>
+<p>Write a function:</p>
+<blockquote><p style="font-family: monospace; font-size: 9pt; display: block; white-space: pre-wrap"><tt>def solution(N)</tt></p></blockquote>
+<p>that, given a positive integer N, returns the length of its longest binary gap. The function should return 0 if N doesn&#x27;t contain a binary gap.</p>
+<p>For example, given N = 1041 the function should return 5, because N has binary representation <tt style="white-space:pre-wrap">10000010001</tt> and so its longest binary gap is of length 5. Given N = 32 the function should return 0, because N has binary representation &#x27;100000&#x27; and thus no binary gaps.</p>
+<p>Write an <b><b>efficient</b></b> algorithm for the following assumptions:</p>
+<blockquote><ul style="margin: 10px;padding: 0px;"><li>N is an integer within the range [<span class="number">1</span>..<span class="number">2,147,483,647</span>].</li>
+</ul>
+</blockquote></div>
+<div style="margin-top:5px">
+<small>Copyright 2009&ndash;2023 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.</small>
+</div>
+</body>
+</html>
+              
+            
+          </div>
+        </div>
+        <div class="task-details-solution-column">
+          <div class="hdr hdr-header">
+            Solution
+            
+            <div class="hdr-action">
+              
+                
+              
+            </div>
+          </div>
+
+          
+
+          
+            <div class="hdr">
+              <span class="hdr-label">Programming language used</span> <span class="language_used" style="font-weight: normal">Python</span>
+            </div>
+          
+
+          
+            
+            <div class="hdr">
+              <span class="hdr-label">Total time used</span> <span>4 minutes</span>
+              <div class="js-total-time-used"></div>
+            </div>
+            
+
+
+            
+            <div class="hdr">
+              <span class="hdr-label">Effective time used</span> <span>4 minutes</span>
+              <div class="js-effective-time-used"></div>
+            </div>
+            
+          
+
+          
+          
+          
+
+              
+                <div class="hdr">
+                  <span class="hdr-label">Notes</span>
+                  <div id="sol-desc-0-container">
+
+                    <div id="sol-desc-0" style="display:block; text-align : left;">
+                      <span class="value user_notes_right" style="font-weight:normal">
+                        
+                          <i>not defined yet</i>
+                        
+                      </span>
+                      
+                    </div>
+                    
+
+                  </div>
+                  <div class="clr"></div>
+                </div>
+               
+
+              
+                
+                  
+                  <div class="hdr hdr-header task-timeline-header">
+                      <span>Task timeline</span>
+                      <div class="js-task-timeline-help"></div>
+                    </div>
+
+                    <div id="buttons-0" class="slider-buttons" style="text-align: center; margin-top:.5em;">
+                      <button id="timeline-0-rewind" aria-label="First snapshot"></button>
+                      <button id="timeline-0-prev" aria-label="Previous snapshot"></button>
+                      <button id="timeline-0-play" aria-label="Play"></button>
+                      <button id="timeline-0-stop" aria-label="Stop"></button>
+                      <button id="timeline-0-next" aria-label="Next snapshot"></button>
+                      <button id="timeline-0-forward" aria-label="Final snapshot"></button>
+                    </div>
+                    <div id="solution-slider-container-0" class="solution-slider-container">
+                      <div id="solution-slider-0"></div>
+                      <div id="solution-timeline-container-0" class="solution-timeline-container">
+                      </div>
+                      <div class="timeline-legend">
+                        <div id="solution-slider-0-time-start"></div>
+                        <div id="solution-slider-0-time-end"></div>
+                      </div>
+                    </div>
+                  
+                
+              
+
+          
+          
+            
+              
+              
+
+              <div id="solution-placeholder-0"></div>
+              
+                
+                  
+
+<div
+  id="task-0-submit-0"
+  class="task-0-submit submited-print solution-summary"
+  
+    style="display: none;"
+  
+>
+
+  <div class='code-container'>
+    <div class="code-header">
+      <div class="left">
+        Code: 06:49:10 UTC,
+        
+          java,
+        
+        
+          autosave 
+        
+      </div>
+
+      
+      <div class="right">
+        
+          <a class="js-popup-source" href="#">show code in pop-up</a>
+        
+        
+      </div>
+      
+    </div>
+    
+      <div class="solution-sourcecode-print white">
+        
+          
+            
+              
+              <div class = "line-numbers">
+                <a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a><a>10</a><a>11</a>
+              </div>
+            
+            <div class="code-highlight">
+              <pre ><code data-prg-lang="java" tabindex="0">// you can also use imports, for example:
+// import java.util.*;
+
+// you can write to stdout for debugging purposes, e.g.
+// System.out.println(&quot;this is a debug message&quot;);
+
+class Solution {
+    public int solution(int N) {
+        // Implement your solution here
+    }
+}
+</code></pre>
+            </div>
+          
+
+        
+      </div>
+    
+    
+      
+    
+  </div>
+
+   
+</div>
+
+                
+                  
+
+<div
+  id="task-0-submit-1"
+  class="task-0-submit submited-print solution-summary"
+  
+    style="display: none;"
+  
+>
+
+  <div class='code-container'>
+    <div class="code-header">
+      <div class="left">
+        Code: 06:49:25 UTC,
+        
+          py,
+        
+        
+          autosave 
+        
+      </div>
+
+      
+      <div class="right">
+        
+          <a class="js-popup-source" href="#">show code in pop-up</a>
+        
+        
+      </div>
+      
+    </div>
+    
+      <div class="solution-sourcecode-print white">
+        
+          
+            
+              
+              <div class = "line-numbers">
+                <a>1</a><a>2</a><a>3</a><a>4</a><a>5</a>
+              </div>
+            
+            <div class="code-highlight">
+              <pre ><code data-prg-lang="py" tabindex="0"># you can write to stdout for debugging purposes, e.g.
+# print(&quot;this is a debug message&quot;)
+
+def solution(N):
+    zeros = bin(N)</code></pre>
+            </div>
+          
+
+        
+      </div>
+    
+    
+      
+    
+  </div>
+
+   
+</div>
+
+                
+                  
+
+<div
+  id="task-0-submit-2"
+  class="task-0-submit submited-print solution-summary"
+  
+    style="display: none;"
+  
+>
+
+  <div class='code-container'>
+    <div class="code-header">
+      <div class="left">
+        Code: 06:49:55 UTC,
+        
+          py,
+        
+        
+          autosave 
+        
+      </div>
+
+      
+      <div class="right">
+        
+          <a class="js-popup-source" href="#">show code in pop-up</a>
+        
+        
+      </div>
+      
+    </div>
+    
+      <div class="solution-sourcecode-print white">
+        
+          
+            
+              
+              <div class = "line-numbers">
+                <a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a>
+              </div>
+            
+            <div class="code-highlight">
+              <pre ><code data-prg-lang="py" tabindex="0"># you can write to stdout for debugging purposes, e.g.
+# print(&quot;this is a debug message&quot;)
+
+def solution(N):
+    zeros = bin(N).split(&#x27;1&#x27;)[1:]
+    if len(zeors) &lt;= 1:
+        return</code></pre>
+            </div>
+          
+
+        
+      </div>
+    
+    
+      
+    
+  </div>
+
+   
+</div>
+
+                
+                  
+
+<div
+  id="task-0-submit-3"
+  class="task-0-submit submited-print solution-summary"
+  
+    style="display: none;"
+  
+>
+
+  <div class='code-container'>
+    <div class="code-header">
+      <div class="left">
+        Code: 06:50:18 UTC,
+        
+          py,
+        
+        
+          autosave 
+        
+      </div>
+
+      
+      <div class="right">
+        
+          <a class="js-popup-source" href="#">show code in pop-up</a>
+        
+        
+      </div>
+      
+    </div>
+    
+      <div class="solution-sourcecode-print white">
+        
+          
+            
+              
+              <div class = "line-numbers">
+                <a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a>
+              </div>
+            
+            <div class="code-highlight">
+              <pre ><code data-prg-lang="py" tabindex="0"># you can write to stdout for debugging purposes, e.g.
+# print(&quot;this is a debug message&quot;)
+
+def solution(N):
+    zeros = bin(N).split(&#x27;1&#x27;)[1:]
+    if len(zeros) &lt;= 1:
+        return 0
+    else:
+        return len(max(zeors))</code></pre>
+            </div>
+          
+
+        
+      </div>
+    
+    
+      
+    
+  </div>
+
+   
+</div>
+
+                
+                  
+
+<div
+  id="task-0-submit-4"
+  class="task-0-submit submited-print solution-summary"
+  
+    style="display: none;"
+  
+>
+
+  <div class='code-container'>
+    <div class="code-header">
+      <div class="left">
+        Code: 06:51:59 UTC,
+        
+          py,
+        
+        
+          autosave 
+        
+      </div>
+
+      
+      <div class="right">
+        
+          <a class="js-popup-source" href="#">show code in pop-up</a>
+        
+        
+      </div>
+      
+    </div>
+    
+      <div class="solution-sourcecode-print white">
+        
+          
+            
+              
+              <div class = "line-numbers">
+                <a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a>
+              </div>
+            
+            <div class="code-highlight">
+              <pre ><code data-prg-lang="py" tabindex="0"># you can write to stdout for debugging purposes, e.g.
+# print(&quot;this is a debug message&quot;)
+
+def solution(N):
+    zeros = bin(N).split(&#x27;1&#x27;)[1:]
+    if len(zeros) &lt;= 1:
+        return 0
+    else:
+        return len(max(zeros[]))</code></pre>
+            </div>
+          
+
+        
+      </div>
+    
+    
+      
+    
+  </div>
+
+   
+</div>
+
+                
+                  
+
+<div
+  id="task-0-submit-5"
+  class="task-0-submit submited-print solution-summary"
+  
+    style="display: none;"
+  
+>
+
+  <div class='code-container'>
+    <div class="code-header">
+      <div class="left">
+        Code: 06:52:03 UTC,
+        
+          py,
+        
+        
+          verify,
+          
+            
+              result:&nbsp;<strong>Passed</strong>
+            
+          
+          
+        
+      </div>
+
+      
+      <div class="right">
+        
+          <a class="js-popup-source" href="#">show code in pop-up</a>
+        
+        
+      </div>
+      
+    </div>
+    
+      <div class="solution-sourcecode-print white">
+        
+          
+            
+              
+              <div class = "line-numbers">
+                <a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a>
+              </div>
+            
+            <div class="code-highlight">
+              <pre ><code data-prg-lang="py" tabindex="0"># you can write to stdout for debugging purposes, e.g.
+# print(&quot;this is a debug message&quot;)
+
+def solution(N):
+    zeros = bin(N).split(&#x27;1&#x27;)[1:]
+    if len(zeros) &lt;= 1:
+        return 0
+    else:
+        return len(max(zeros[:-1]))</code></pre>
+            </div>
+          
+
+        
+      </div>
+    
+    
+      
+    
+  </div>
+
+  
+    
+      <!-- upload tasks have eval_rpt but at this point we are sure there are no errors -->
+      
+        <div class="analysis">
+          
+            
+          
+
+          <div class="hdr hdr-header">
+            Analysis 
+            
+              <div class="clr"></div>
+            
+          </div>
+
+          
+            
+
+
+  
+
+  
+
+  <div class="tests-table">
+    
+      <div class="tests-group">
+
+      <div class="header group-example">
+        
+          <a href="#" class="expand-link" role="button" aria-label="Expand all Example tests">expand all</a> 
+        
+        <b>Example tests</b>
+      </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example1 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example1
+            
+              <br>
+              <small>example test n=1041=10000010001_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example2 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example2
+            
+              <br>
+              <small>example test n=15=1111_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example3 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example3
+            
+              <br>
+              <small>example test n=32=100000_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+
+      </div> 
+    
+
+  </div>
+
+
+
+          
+
+        </div> 
+      
+     
+   
+</div>
+
+                
+                  
+
+<div
+  id="task-0-submit-6"
+  class="task-0-submit submited-print solution-summary"
+  
+    style="display: none;"
+  
+>
+
+  <div class='code-container'>
+    <div class="code-header">
+      <div class="left">
+        Code: 06:52:08 UTC,
+        
+          py,
+        
+        
+          verify,
+          
+            
+              result:&nbsp;<strong>Passed</strong>
+            
+          
+          
+        
+      </div>
+
+      
+      <div class="right">
+        
+          <a class="js-popup-source" href="#">show code in pop-up</a>
+        
+        
+      </div>
+      
+    </div>
+    
+      <div class="solution-sourcecode-print white">
+        
+          
+            
+              
+              <div class = "line-numbers">
+                <a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a>
+              </div>
+            
+            <div class="code-highlight">
+              <pre ><code data-prg-lang="py" tabindex="0"># you can write to stdout for debugging purposes, e.g.
+# print(&quot;this is a debug message&quot;)
+
+def solution(N):
+    zeros = bin(N).split(&#x27;1&#x27;)[1:]
+    if len(zeros) &lt;= 1:
+        return 0
+    else:
+        return len(max(zeros[:-1]))</code></pre>
+            </div>
+          
+
+        
+      </div>
+    
+    
+      
+    
+  </div>
+
+  
+    
+      <!-- upload tasks have eval_rpt but at this point we are sure there are no errors -->
+      
+        <div class="analysis">
+          
+            
+          
+
+          <div class="hdr hdr-header">
+            Analysis 
+            
+              <div class="clr"></div>
+            
+          </div>
+
+          
+            
+
+
+  
+
+  
+
+  <div class="tests-table">
+    
+      <div class="tests-group">
+
+      <div class="header group-example">
+        
+          <a href="#" class="expand-link" role="button" aria-label="Expand all Example tests">expand all</a> 
+        
+        <b>Example tests</b>
+      </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example1 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example1
+            
+              <br>
+              <small>example test n=1041=10000010001_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example2 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example2
+            
+              <br>
+              <small>example test n=15=1111_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example3 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example3
+            
+              <br>
+              <small>example test n=32=100000_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+
+      </div> 
+    
+
+  </div>
+
+
+
+          
+
+        </div> 
+      
+     
+   
+</div>
+
+                
+                  
+
+<div
+  id="task-0-submit-7"
+  class="task-0-submit submited-print solution-summary"
+  
+    style="display: none;"
+  
+>
+
+  <div class='code-container'>
+    <div class="code-header">
+      <div class="left">
+        Code: 06:52:12 UTC,
+        
+          py,
+        
+        
+          final,
+          
+            score:&nbsp<strong>
+              
+                100
+              
+              </strong>
+          
+          
+        
+      </div>
+
+      
+      <div class="right">
+        
+          <a class="js-popup-source" href="#">show code in pop-up</a>
+        
+        
+      </div>
+      
+    </div>
+    
+      <div class="solution-sourcecode-print white">
+        
+          
+            
+              
+              <div class = "line-numbers">
+                <a>1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a>
+              </div>
+            
+            <div class="code-highlight">
+              <pre ><code data-prg-lang="py" tabindex="0"># you can write to stdout for debugging purposes, e.g.
+# print(&quot;this is a debug message&quot;)
+
+def solution(N):
+    zeros = bin(N).split(&#x27;1&#x27;)[1:]
+    if len(zeros) &lt;= 1:
+        return 0
+    else:
+        return len(max(zeros[:-1]))</code></pre>
+            </div>
+          
+
+        
+      </div>
+    
+    
+      
+    
+  </div>
+
+  
+    
+      <!-- upload tasks have eval_rpt but at this point we are sure there are no errors -->
+      
+        <div class="analysis">
+          
+            
+              <div class="hdr hdr-header">Analysis summary</div>
+              
+  <p>
+    The solution obtained perfect score.
+  </p>
+
+
+
+
+
+
+
+            
+          
+
+          <div class="hdr hdr-header">
+            Analysis 
+            
+              <div class="clr"></div>
+            
+          </div>
+
+          
+            
+
+
+  
+
+  
+
+  <div class="tests-table">
+    
+      <div class="tests-group">
+
+      <div class="header group-example">
+        
+          <a href="#" class="expand-link" role="button" aria-label="Expand all Example tests">expand all</a> 
+        
+        <b>Example tests</b>
+      </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example1 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example1
+            
+              <br>
+              <small>example test n=1041=10000010001_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example2 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example2
+            
+              <br>
+              <small>example test n=15=1111_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle example3 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            example3
+            
+              <br>
+              <small>example test n=32=100000_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+
+      </div> 
+    
+      <div class="tests-group">
+
+      <div class="header group-func">
+        
+          <a href="#" class="expand-link" role="button" aria-label="Expand all Correctness tests">expand all</a> 
+        
+        <b>Correctness tests</b>
+      </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle extremes test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            extremes
+            
+              <br>
+              <small>n=1, n=5=101_2 and n=2147483647=2**31-1</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                2.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                3.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle trailing_zeroes test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            trailing_zeroes
+            
+              <br>
+              <small>n=6=110_2 and n=328=101001000_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                2.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle power_of_2 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            power_of_2
+            
+              <br>
+              <small>n=5=101_2, n=16=2**4 and n=1024=2**10</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                2.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                3.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle simple1 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            simple1
+            
+              <br>
+              <small>n=9=1001_2 and n=11=1011_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                2.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle simple2 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            simple2
+            
+              <br>
+              <small>n=19=10011 and n=42=101010_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                2.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle simple3 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            simple3
+            
+              <br>
+              <small>n=1162=10010001010_2 and n=5=101_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                2.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle medium1 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            medium1
+            
+              <br>
+              <small>n=51712=110010100000000_2 and n=20=10100_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                2.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle medium2 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            medium2
+            
+              <br>
+              <small>n=561892=10001001001011100100_2 and n=9=1001_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                2.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle medium3 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            medium3
+            
+              <br>
+              <small>n=66561=10000010000000001_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle large1 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            large1
+            
+              <br>
+              <small>n=6291457=11000000000000000000001_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle large2 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            large2
+            
+              <br>
+              <small>n=74901729=100011101101110100011100001</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle large3 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            large3
+            
+              <br>
+              <small>n=805306373=110000000000000000000000000101_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle large4 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            large4
+            
+              <br>
+              <small>n=1376796946=1010010000100000100000100010010_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle large5 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            large5
+            
+              <br>
+              <small>n=1073741825=1000000000000000000000000000001_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+        <div class="test floated">
+          <div class="left">
+            
+              <a href="#" class="expand-icon" aria-expanded="false" aria-label="Toggle large6 test result">&#x25b6;</a>
+            
+          </div>
+          <div class="name">
+            large6
+            
+              <br>
+              <small>n=1610612737=1100000000000000000000000000001_2</small>
+            
+          </div>
+          
+            <div class="test-icon pass">&#x2714;</div> 
+          
+          <div class="result">
+            <b>OK</b>
+            
+              
+            
+          </div>
+        </div>
+        <div class="test-details" style="display: none;">
+          
+            <div class="subcase floated">
+              
+              <div class="left counter">
+                1.
+              </div>
+
+              
+              <div class="time">
+                
+                  0.012&nbsp;s
+                
+              </div>
+
+              
+              <div class="result">
+                
+                  <b>OK</b>
+                
+                
+              </div>
+            </div>
+
+            
+             
+              
+             
+           
+        </div>
+      
+
+      </div> 
+    
+
+  </div>
+
+
+
+          
+
+        </div> 
+      
+     
+   
+</div>
+
+                
+              
+            
+          
+          
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<script type="application/json" id="data-bag-/tickets/api/detail/training37XKRH-9QU/">{}</script>
+
+</main>
+
+
+  
+  
+
+  
+
+  </body>
+</html>
